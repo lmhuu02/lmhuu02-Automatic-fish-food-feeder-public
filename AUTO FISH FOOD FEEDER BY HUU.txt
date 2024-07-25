@@ -1,0 +1,31 @@
+
+PROJECT: AUTO FISH FOOD FEEDER
+BY: LE MINH HUU
+TIME: 4/2/2023
+C++, ESP, SERVO, FIREBASE, APP ANDROID.
+
+ống 60: 1m
+chụp ống 60: 3 cái
+côn thu 60->34: 1 cái
+t 34: 3 cái,
+chụp t34: 2 cái. 
+ốc vít nhọn
+
+
+
+mô tả:
+sp1:
+	- 1 lọ và nắp đựng thức ăn chăn cá xoay ngang. cơ chế xoay bình thức ăn 1 vòng.
+	- module: 1 ống 60, dài 9cm, có chụp 2 đầu.
+	- đế: 1 t34 gắn vào thành bể:
+		đầu T sẻ rãnh gắn bể
+		đường trục sẻ rãnh gắn moudule.
+		module gắn thêm 1/2 ống T34 để kết nối đế.
+	- app: số lần quay, hẹn giờ thời gian.
+
+sp2:
+	- 1 ống 60, dài 7 cm dựng đứng + chụp 60.
+	- 1 côn thu 60 -> 34
+	- 1 T34 nối với côn thu và ống 34 dài 5cm nằm ngang + 2 chụp đầu ra.
+	- 1 trục xoắn xoay vòng đẩy thức ăn ra.
+	- đế: 1 T34 gắn đế như trên.

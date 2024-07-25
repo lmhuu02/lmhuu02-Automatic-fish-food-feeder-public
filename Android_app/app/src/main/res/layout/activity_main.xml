@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/groud1"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/firstID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto fish food feeder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        />
+    <TextClock
+        android:id="@+id/textclock"
+        android:layout_below="@id/firstID"
+        android:layout_marginTop="20dp"
+        android:format24Hour="E, d-M-yyyy k:m:sa"
+        android:format12Hour="k:m:sa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="70dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logoictu"
+        />
+
+    <Switch
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentLeft="true"
+        android:text="status"
+        android:textSize="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:textOff="Tắt"
+        android:textOn="Bật"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="260dp"
+        android:text="giờ cài đặt:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+    <EditText
+        android:id="@+id/giocd"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstID"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="250dp"
+        android:text="0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="310dp"
+        android:text="phút cài đặt:"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstID"
+        android:id="@+id/phutcd"
+        android:layout_marginTop="300dp"
+        android:text="0"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentRight="true"
+        android:text="finish"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="380dp"
+        android:text="thời gian hẹn giờ: "
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time1"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="420dp"
+        android:text="lần cho ăn trước: "
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        />
+
+    <Switch
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:layout_below="@+id/firstID"
+        android:layout_marginTop="460dp"
+        android:layout_alignParentLeft="true"
+        android:text="hẹn giờ"
+        android:textSize="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:textOff="Tắt"
+        android:textOn="Bật"/>
+
+</RelativeLayout>
